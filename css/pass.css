@@ -1,0 +1,20 @@
+body {
+    background-image: url(bg/Repeating-Triangles.svg);
+    background-size: cover;
+}
+
+.pass {
+    background-image: url(bg/pass1.jpg);
+    background-size: cover;
+    width: 70%;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: solid medium black;
+    font-family: sans-serif;
+}
+    
+.info {
+     word-wrap: break-word;
+}

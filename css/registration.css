@@ -1,0 +1,35 @@
+body {
+    background-image: url(bg/Repeating-Triangles.svg);
+    background-size: cover;
+}
+    
+.registration {
+    background-image: url(bg/bg.jpeg);
+    background-size: cover;
+    width: 70%;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: solid medium black;
+    font-family: sans-serif;
+}
+
+input {
+    width: 40%;
+}
+
+#name, #clg, #mob, #email {
+    left: 30%;
+}
+
+@media only screen and (orientation: landscape)
+{
+    .registration{
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: translate(0,0);
+        margin: 15%;
+    }
+}

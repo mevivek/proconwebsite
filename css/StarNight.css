@@ -1,0 +1,27 @@
+body {
+    background-image: url(bg/bg5.png);
+    background-size: cover;
+}
+
+div {
+     width: 80%;
+     margin: 10%;
+}
+
+.star {
+    height: 60%;
+    width: 100%;
+    border: solid medium black;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (orientation: landscape)
+{
+    .star {
+        height: 80%;
+    }
+}
